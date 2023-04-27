@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* #container{
+    display: flex;
+    justify-content: center;
+} */
+#box{
+    border: 2px solid black;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+#top-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#top-info>p{
+    font-weight: bold;
+}
+button{
+    background-color: rgb(255,217,102);
+    box-shadow: 2px 2px 2px black;
+    width: 75px;
+    margin-right: 10px;
+}
+#text{
+    text-align: center;
+    margin: 15px;
+}
+h2{
+    margin-left: 10px;
+}

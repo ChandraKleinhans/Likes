@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#title-nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    /* width: 66%; */
+    /* margin-left: 33%; */
+}
+#feed-title{
+    display: flex;
+    justify-content: center;
+}
+#main-content{
+    display: flex;
+}
+#left-content{
+    display: inline-block;
+    border: 2px solid black;
+    width: 33%;
+    height: 250px;
+    margin-right: 20px;
+}
+#right-content{
+    /* display: inline-block; */
+    /* border: 2px solid black; */
+    width: 66%;
+}
+#text{
+    text-align: center;
+    margin: 15px;
+}
+#person1{
+    border: 2px solid green;
+    height: 100px;
+    margin-bottom: 10px;
+    /* display: flex; */
+
+}
+
+#person2{
+    border: 2px solid green;
+    height: 100px;
+    margin-bottom: 10px;
+}
+#person3{
+    border: 2px solid green;
+    height: 100px;
+}
+.like-button{
+    background-color: rgb(241,201,78);
+    box-shadow: 3px 3px 3px black;
+    width: 50px;
+    height: 25px;
+    font-weight: bold;
+
+}
+.person-likes{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    /* margin-left: -30px; */
+}
+.person-likes>h3{
+    margin-right: 60px;
+}
+.person-likes>p{
+    margin-right: 20px;
+}
+.person{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+#left-content>a{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#left-content>h3{
+    text-align: center;
+}
+#user-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
